@@ -280,11 +280,20 @@
 
           <div class="mx-auto mt-7 mb-10 h-px w-20 bg-[#9a8367]/60"></div>
 
-          <img
-            src="/img/Impuls_pro_CMYK.jpg"
-            alt="Offizielles Logo für Lebens- und Sozialberater"
-            class="mx-auto h-32 w-auto rounded-xl shadow-sm md:h-40"
-          />
+          <div class="flex justify-center space-x-20">
+            <img
+              src="/img/Impuls_pro_CMYK.jpg"
+              alt="Offizielles Logo für Lebens- und Sozialberater"
+              class="h-32 w-auto rounded-xl shadow-sm md:h-40"
+            />
+
+            <img
+              src="/img/Siegel.webp"
+              alt="Offizielles Logo für Stadliche geprüfte Massagen"
+              class="h-32 w-auto rounded-xl shadow-sm md:h-40"
+            />
+          </div>
+          
 
         </div>
 

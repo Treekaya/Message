@@ -154,13 +154,15 @@
             </span>
           </p>
 
+          <p class="mt-10 text-2xl font-serif">Komm... und erzähle mir Deine Geschichte</p>
+
         </div>
 
 
         <!-- ABSCHLUSS -->
 
         <div
-          class="mt-20 text-center"
+          class="mt-15 text-center"
         >
 
           <a

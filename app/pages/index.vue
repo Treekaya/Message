@@ -12,10 +12,7 @@
 
       <BaseContent class="relative py-20 sm:py-28 lg:py-32">
 
-        <div
-          class="grid items-center gap-16
-                 lg:grid-cols-[1fr_440px]"
-        >
+        <div class="grid items-center gab-2 lg:grid-cols-[1fr_440px]">
 
           <!-- TEXT -->
           <div class="relative z-10">
@@ -26,7 +23,7 @@
                      text-[#6d4aff]"
             >
               <span class="h-px w-8 bg-[#6d4aff]"></span>
-              Psychologische Beratung
+              Psychosoziale Beratung
             </span>
 
             <h1
@@ -109,7 +106,7 @@
               <img
                 src="/img/Ingrid.jpg"
                 alt="Ingrid, psychologische Beraterin"
-                class="aspect-3/4 w-full object-cover"
+                class=" aspect-3/4 w-full object-cover"
               />
 
               <div
@@ -139,6 +136,7 @@
     </section>
 
 
+    <SectionKennstDuDass />
 
     <SectionElifant />
 

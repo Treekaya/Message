@@ -46,12 +46,11 @@
                 <!-- Beschriftung unter dem Foto -->
                 <div class="pt-5 text-center">
                   <p class="font-serif text-2xl tracking-wide text-stone-800">
-                    Wer bin ich?
+                    Ingrid Köck
                   </p>
 
                   <p class="mt-1 text-sm uppercase tracking-[0.25em] text-stone-500">
-                    Ingrid Köck
-                    dipl. Lebens- und Sozialarbeiterin
+                    dipl. Lebens- und Sozialberaterin
                   </p>
                 </div>
 
@@ -69,23 +68,17 @@
 
       <!-- Überschrift -->
       <header class="mb-16 text-center">
-        <span
-          class="text-sm font-medium uppercase tracking-[0.3em] text-amber-700"
-        >
+        <span class="text-sm font-medium uppercase tracking-[0.3em] text-amber-700">
           Persönliches
         </span>
 
-        <h1
-          class="mt-4 font-serif text-4xl font-medium text-stone-900 sm:text-5xl"
-        >
+        <h1 class="mt-4 font-serif text-4xl font-medium text-stone-900 sm:text-5xl">
           Wer bin ich?
         </h1>
 
         <div class="mx-auto mt-6 h-px w-24 bg-amber-700/50"></div>
 
-        <p
-          class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600"
-        >
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-stone-600">
           Mit wem bekommen Sie es zu tun?
         </p>
       </header>
@@ -168,82 +161,17 @@
 
           <div class="mt-8 space-y-8">
 
-            <div class="flex gap-5">
-              <div
-                class="mt-2 h-3 w-3 shrink-0 rounded-full bg-amber-700 ring-4 ring-amber-100"
-              ></div>
+            <Lebenslinie title="Kindberg/Stmk " text="geb 1969 in Bruck/Mur, aufgewachsen in Kindberg im Forsthaus, mitten in der Natur" />
 
-              <div>
-                <span class="text-sm font-semibold uppercase tracking-widest text-amber-700">
-                  Kindberg/Stmk 
-                </span>
-                <p class="mt-2 leading-8 text-stone-600">
-                  geb 1969 in Bruck/Mur, aufgewachsen in Kindberg im Forsthaus, mitten in der Natur
-                </p>
-              </div>
-            </div>
+            <Lebenslinie title="Graz" text="1987 Beginn meines beruflichen Weges als Masseurin, mit jährlichen Weiterbildungen bis heute" />
 
-            <div class="flex gap-5">
-              <div
-                class="mt-2 h-3 w-3 shrink-0 rounded-full bg-amber-700 ring-4 ring-amber-100"
-              ></div>
-
-              <div>
-                <span class="text-sm font-semibold uppercase tracking-widest text-amber-700">
-                  Graz
-                </span>
-                <p class="mt-2 leading-8 text-stone-600">
-                  1987 Beginn meines beruflichen Weges als Masseurin, mit jährlichen Weiterbildungen bis heute 
-                </p>
-              </div>
-            </div>
-
-            <div class="flex gap-5">
-              <div
-                class="mt-2 h-3 w-3 shrink-0 rounded-full bg-amber-700 ring-4 ring-amber-100"
-              ></div>
-
-              <div>
-                <span class="text-sm font-semibold uppercase tracking-widest text-amber-700">
-                  Linz
-                </span>
-                <p class="mt-2 leading-8 text-stone-600">
-                  1998 Umzug nach Linz. Start meiner Selbständigkeit. Finden einer neuen Heimat durch viele neue Begegnungen mit netten Menschen und mittlerweile einem großen Freundeskreis. 
-                </p>
-              </div>
-            </div>
-
-            <div class="flex gap-5">
-              <div
-                class="mt-2 h-3 w-3 shrink-0 rounded-full bg-amber-700 ring-4 ring-amber-100"
-              ></div>
-
-              <div>
-                <span class="text-sm font-semibold uppercase tracking-widest text-amber-700">
-                  2023
-                </span>
-                <p class="mt-2 leading-8 text-stone-600">
-                  Start als Lebens- und Sozialberaterin, Coaching, Supervision, Aufstellungsarbeit
-                  … eine wunderbare Ergänzung mit der Arbeit für Menschen
-                </p>
-              </div>
-            </div>
-
-            <div class="flex gap-5">
-              <div
-                class="mt-2 h-3 w-3 shrink-0 rounded-full bg-amber-700 ring-4 ring-amber-100"
-              ></div>
-
-              <div>
-                <span class="text-sm font-semibold uppercase tracking-widest text-amber-700">
-                  Heute
-                </span>
-                <p class="mt-2 leading-8 text-stone-600">
-                  Lebens- und Sozialberatung, Coaching, Supervision und
-                  Aufstellungsarbeit.
-                </p>
-              </div>
-            </div>
+            <Lebenslinie title="Linz" text="1998 Umzug nach Linz. Start meiner Selbständigkeit. 
+                                            Finden einer neuen Heimat durch viele neue Begegnungen mit netten Menschen und mittlerweile einem großen Freundeskreis." />
+            
+            <Lebenslinie title="2003" text="Geburt meines Sohnes" />
+            
+            <Lebenslinie title="2023" text="Start als Lebens- und Sozialberaterin, Coaching, Supervision, Aufstellungsarbeit
+                                            … eine wunderbare Ergänzung mit der Arbeit für Menschen" />
 
           </div>
         </section>
@@ -263,7 +191,7 @@
             </p>
 
             <p>
-              Ich koche gern, bin gerne – vorwiegend wandernd – in der Natur,
+              Ich koche gern, bin gerne - vorwiegend wandernd - in der Natur,
               habe eine Katze und liebe es, mich fortzubilden. Man findet mich
               auf Flohmärkten, im Kabarett, Theater oder an irgendeinem See.
             </p>
@@ -278,17 +206,17 @@
 
 
         <!-- Beruf -->
-        <section class="rounded-3xl bg-stone-900 px-8 py-12 text-stone-100 shadow-xl sm:px-12">
+        <section class="rounded-3xl bg-blue-300 px-8 py-12 text-stone-100 shadow-xl sm:px-12">
 
-          <span class="text-sm uppercase tracking-[0.3em] text-amber-400">
+          <span class="text-sm uppercase tracking-[0.3em] text-black">
             Meine Arbeit
           </span>
 
-          <h2 class="mt-4 font-serif text-3xl sm:text-4xl">
+          <h2 class="mt-4 font-serif text-3xl sm:text-4xl text-black">
             Menschen ganzheitlich sehen
           </h2>
 
-          <div class="mt-8 space-y-6 text-lg leading-9 text-stone-300">
+          <div class="mt-8 space-y-6 text-lg leading-9 text-stone-600">
 
             <p>
               In meine Arbeit als psychologische Beraterin fließen vier Jahrzehnte
@@ -319,9 +247,7 @@
               ❝
             </div>
 
-            <p
-              class="font-serif text-2xl leading-relaxed text-stone-700 sm:text-3xl"
-            >
+            <p class="font-serif text-2xl leading-relaxed text-stone-700 sm:text-3xl">
               Egal was im Leben passiert, es geht weiter und es lohnt sich
               hinzuschauen und nachzuforschen, um sich seiner bewusst zu werden
               und sich auf die Reise zu sich selbst zu begeben.
@@ -336,44 +262,10 @@
         </section>
 
 
-        <!-- Abschluss -->
-        <section
-          class="rounded-3xl bg-linear-to-br from-amber-50 to-stone-100
-                 px-8 py-12 text-center ring-1 ring-amber-100 sm:px-16"
-        >
-
-          <h2 class="font-serif text-3xl text-stone-900 sm:text-4xl">
-            Eine Reise zu sich selbst
-          </h2>
-
-          <p class="mx-auto mt-6 max-w-3xl text-lg leading-9 text-stone-600">
-            Heute weiß ich: Themen gehören angeschaut. Am besten mit einem
-            Gegenüber. Jemandem, der Sie und Ihre Gefühle  ernst nimmt, Ihnen zuhört und mit Ihnen die Ursachen erforscht. 
-          </p>
-
-          <p class="mx-auto mt-6 max-w-3xl text-lg leading-9 text-stone-600">
-            Vielleicht braucht es Mut, vielleicht einen Ruck oder die
-            Überwindung von Angst, um mich zu kontaktieren.
-          </p>
-
-          <p class="mt-8 font-serif text-2xl text-amber-800">
-            Trauen Sie sich einfach.
-          </p>
-
-          <p class="mt-3 text-stone-600">
-            Ich bin für Sie da und freue mich darauf, mit Ihnen neue Wege
-            zu Ihrem Selbst zu gehen.
-          </p>
-
-        </section>
-
-
         <!-- Schluss -->
-        <footer class="border-t border-stone-200 pt-12 text-center">
+        <footer class="pt-12 text-center">
 
-          <p
-            class="font-serif text-2xl italic text-stone-700 sm:text-3xl"
-          >
+          <p class="font-serif text-2xl italic text-stone-700 sm:text-3xl">
             „Unsere Reise endet erst mit unserem Tod -
             bis dahin gilt es zu entdecken, zu forschen … zu leben!!!“
           </p>
